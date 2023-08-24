@@ -1,0 +1,249 @@
+@import '../variables';
+@import './darkThemeAdmin';
+
+.adminAllCon{
+display: flex;
+justify-content: center;
+padding:90px 6%;
+background: #FAF8F8;
+}
+
+.navbar2{
+    width: 25%;
+}
+
+.subNav3{
+background: $color3;
+width: 90%;   
+padding: 20px;
+overflow-y: auto;
+height: 100%;
+box-shadow: $color17;
+height: auto;
+
+  div{
+    padding: 7px 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: $color3;
+    display: flex;
+        a{
+            text-decoration: none;
+            color: $color14;
+            font-family: poppinsLight;
+            width: 100%;
+        }
+    }
+}
+
+.navusername{
+    padding: 5px !important;
+    background: $color16;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: $color1;
+    font-family: poppinsRegular;
+    i{
+        color:$color3;
+        margin-right: 5px;
+        font-size: 15px;
+    }
+
+
+}
+.mainBody{
+    width:75%;
+}
+
+.mainHeading{
+    padding: 16px;
+    background: $color16;
+    color:$color3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p{
+    font-family: poppinsRegular;
+    }
+    a{
+        margin: 0 3px;
+        color: $color0;
+        padding: 10px 16px;
+        border: 0;
+        background: $color4;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+        cursor: pointer;
+        font-family: poppinsMedium;
+        font-size: 12px;
+    }
+}
+.adminstat1con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+    width: 100%;
+}
+
+.adminstat1{
+    display: flex;
+    align-items: center;
+    box-shadow: $color17;
+    background: $color3;
+    width: 30%;
+    padding: 10px;
+    font-family: poppinsRegular;
+
+}
+
+.adminstat1icon{
+    padding: 0 10px 0 4px;
+}
+
+.adminstat1icon div:nth-of-type(1){
+    width: 40px;
+    font-family: poppinsRegular;
+    height: 40px;
+    border-radius: 50%;
+    background: MediumSeaGreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminstat1details p:nth-of-type(1){
+    font-family: font3;
+    font-family: poppinsRegular;
+    font-size: 13px;
+}
+
+.adminstat1details p:nth-of-type(2){
+    font-size: 12px;
+    font-family: poppinsRegular;
+}
+
+.adminstat2con{
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 0;
+}
+
+.adminstat2{
+    box-shadow: $color17;
+    background: $color3;
+    width: 49%;
+}
+
+.adminstat2heading{
+    padding: 15px;
+
+    p{
+        font-family: font3;
+        font-family: poppinsRegular;
+        font-size: 14px;
+    }
+}
+
+.adminstat2stat{
+    width: 100%;
+    height: auto;
+    padding: 14px;
+    box-sizing: border-box;
+}
+
+.chartfilterscon{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px 5px;
+padding-top: 0;
+margin-top: -13px;
+// background: $color2;
+    select{
+        border: 1px solid silver;
+        padding: 7px 4px;
+        border-radius: 5px;
+        width: 100%;
+        margin:0 5px;
+        font-size: 11px;
+        font-family: poppinsLight;
+    }
+}
+
+.chartInfo{
+    font-size: 11px;
+    margin:  2px 10px 12px 10px;
+    font-family: poppinsMedium;
+    text-align: center;
+    // color:$color3;
+    
+
+    p{
+        padding:0 3px;
+        font-size: 8px;
+        // color:black;
+        font-family: poppinsRegular;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:780px) {
+    .adminAllCon{
+        padding: 86px 3%;
+    }
+
+    .mainBody{
+        width:100%;
+    }
+
+    .navbar2{
+        display: none;
+    }
+    
+    .adminstat1con{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 0px;
+        width: 100%;
+    }
+    
+    .adminstat1{
+        width: 100%;
+        margin: 5px 0;
+        padding: 12px 10px;
+        box-sizing: border-box;
+    }
+
+    .adminstat2con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .adminstat2{
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+}

@@ -1,0 +1,65 @@
+
+@media (prefers-color-scheme: dark) {
+
+    .categoryCon{
+        background: $color18 !important;
+
+
+        h2{
+            color: $color4 !important;
+        }
+    }
+    
+
+    
+.blogInfo{
+    background: $color18 !important;
+
+    h3{
+        color:$color4 !important;
+    }
+}
+
+.blogInfo p:nth-of-type(1){
+    color: $color13 !important;
+}
+
+
+.blogDataCon{
+    background: $color18 !important;
+}
+
+.blogData{
+    i{
+        color:$color4 !important;
+    }
+}
+
+
+
+footer{
+    background: #202020 !important;
+}
+
+.footerLinksCon{
+    
+    h4{
+        color:#e9a557 !important;
+    }
+
+    
+    ul{
+
+        li{
+            background-color: $color11 !important;
+            color:$color3 !important;
+        }
+
+        li:hover{
+            background: $color1 !important;
+        }
+
+}
+}
+
+}

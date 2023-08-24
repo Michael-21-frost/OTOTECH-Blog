@@ -1,0 +1,77 @@
+
+@media (prefers-color-scheme: dark) {
+
+    .articleHeadCon{
+        background: $color18 !important;
+    }
+    .articleHead{
+    
+        h1{
+            color: $color5 !important;
+        }
+        p{
+            color: $color5 !important;
+        }
+    }
+
+    .articleCreditCon{
+        background: $color18 !important;
+    }
+
+    .articleAuthor p:nth-of-type(1){
+        color: $color13 !important;
+    }
+    
+    .articleAuthor p:nth-of-type(2){
+        color: $color4 !important;
+    }
+    
+    .articleAuthor p:nth-of-type(3){
+        color: $color4 !important;
+    }
+    
+    
+    .articleShare{
+    a{
+        background: $color0;
+    }
+   }
+
+   .articleContentCon{
+    background: #0f0f0f !important;
+
+    div{
+        color: $color15 !important;
+    }
+
+}
+
+.likeArticleCon{
+   background:#0f0f0f !important;
+}
+.commentBoxCon{
+    background: $color18 !important;
+
+    form{
+
+        h3{
+            color: $color3 !important;
+        }
+
+        input{
+            color:$color4 !important;
+            background: $color11 !important;
+        }
+
+        textarea{
+            color:$color4 !important;
+            background: $color11 !important;
+        }
+    }
+}
+
+
+.articleCommentsCon{
+    background: $color11 !important;
+}
+}

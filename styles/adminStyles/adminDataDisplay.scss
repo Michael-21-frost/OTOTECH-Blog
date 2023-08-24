@@ -1,0 +1,148 @@
+@import '../variables';
+
+
+
+.adminfilterscon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    background: $color3;
+    padding: 15px;
+    padding-bottom: 0;
+    //margin-bottom: 10px;
+}
+
+
+.adminfilters{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    
+        input{
+            border: 1px solid $color13;
+            padding: 9px 6px;
+            border-radius: 5px;
+            width: 100%;
+           box-sizing: border-box;
+          }
+    
+          select{
+            border: 1px solid $color13;
+            padding: 9px 6px;
+            border-radius: 5px;
+            width: 80%;
+           box-sizing: border-box;  
+           margin: 0 5px;
+          }
+    }
+
+
+.adminstat3con{
+    box-shadow: $color17;
+    background: $color3;
+  //  margin-top: 18px;
+    padding-bottom: 18px;
+}
+
+.adminstat3{
+    padding: 0 15px;
+}
+
+
+.adminmorebtn{
+    padding: 0 15px;
+    display: flex;
+    justify-content:space-between;
+    button{
+        color: $color3;
+        padding: 10px;
+        border: 0;
+        background: $color2;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+        cursor: pointer;
+
+    }
+}
+
+.adminstat3info2{
+    overflow-x: auto;
+    padding: 15px 0;
+   // margin-top: -20px;
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    tr{
+        border: 0;
+        border: 1px solid $color13;
+    }
+    th{
+        padding: 10px 14px;
+        font-size: 11px;
+        text-align: left;
+        font-family: poppinsRegular;
+    }
+    td{
+        padding: 10px 14px;
+        font-size: 13px;
+        font-family: poppinsLight;
+    }
+
+    i{
+        color: $color9;
+        cursor: pointer;
+    }
+    button{
+        color: $color0;
+        padding: 10px;
+        border: 0;
+        background: transparent;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: poppinsMedium;
+    }
+
+    img{
+        width: 100px;
+        height: 90px;
+        object-fit: contain;
+    }
+    
+}
+
+
+
+
+
+
+@media (max-width:780px) {
+    .adminstat3info2{
+        overflow-x: scroll;
+    }
+
+    .adminfilters{
+        width: 50%;
+        
+            input{
+               font-size: 11px;
+              }
+        
+              select{
+               font-size: 11px;
+              }
+    }
+
+    
+
+    .swal2-html-container{
+        font-size: 15px !important;
+    }
+    
+    .swal2-title{
+         font-size: 27px !important;
+    }
+}

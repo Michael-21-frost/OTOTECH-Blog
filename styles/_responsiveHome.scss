@@ -1,0 +1,246 @@
+
+@media (max-width:680px) {
+.footerCon{
+    flex-wrap: wrap !important;
+}
+.footerLinksCon{
+max-width: 100% !important;
+padding: 30px 10px !important;
+
+h4{
+    font-size: 18px !important;
+    margin-bottom: 15px !important;
+}
+}
+}
+
+
+@media (max-width:780px) {
+    .linksCon{
+        display: none !important;
+    }
+
+    header{
+        padding: 18px 25px !important;
+    }
+    .barCon{
+        padding:0 !important;
+        padding-top: 74px !important;
+        display: none !important;
+    }
+    .categoriesCon{
+        width: 100% !important;
+        margin-right: 0px !important;
+        justify-content: space-between !important;
+   
+    p{
+        font-family: poppinsRegular !important;
+        font-size: 16px !important;
+        padding-right: 5px;
+    }
+    i{
+        color: $color3;
+    }
+    }
+
+    .searchCon{
+        width: auto !important;
+        
+        input{
+            display: none !important;
+        }
+
+        i{
+            padding: 15px !important;
+        }
+    }
+    
+    .filterCon2{
+        padding: 0 !important;
+        display: none !important;
+        
+        div{
+            width:50% ;
+            background: $color4;
+            padding: 25px 15px;
+            font-family: poppinsLight;
+            border: 1px solid $color5;
+    }
+    }
+
+    .mainScreenCon{
+        padding:0 30px 80px 30px !important;
+        padding-top: 104px !important;
+        height: auto !important;
+    }
+
+    .mainScreen{
+        width: 100% !important;
+    }
+    .main1 h3{
+        font-family: poppinsBold;
+        font-size: 22px !important;
+        padding-bottom: 10px !important;
+    }
+    .main2{
+        display:none !important;
+    }
+    .submain{
+		width: 100%;
+        display: block !important;
+}
+
+
+
+
+.categoriesCon2{
+    padding: 0px 5% 40px 5% !important;
+    margin-top: -40px;
+
+    .categories{
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    h2{
+        font-family: poppinsMedium;
+        font-size: 16px !important;
+    }
+
+    p{
+        font-family: poppinsLight;
+        font-size: 12px !important;
+        padding-top: 10px;
+        text-overflow: ellipsis;
+    }
+}
+
+
+.categoryCon{
+    width: 40% !important;
+    max-width: 40% !important;
+    height: 115px !important;
+    padding: 25px 12px 20px 19px !important;
+    margin:0 0 15px 0 !important;
+
+    h2{
+        font-family: poppinsRegular !important;
+        color: #202020 !important;
+    }
+    p{
+        display: none;
+    }
+
+    i{
+        padding-bottom: 24px !important;
+    }
+}
+
+.categoriesCon3{
+    padding: 40px 3% 40px 3% !important;
+
+    .blogInfo{
+        height: auto !important;
+    }
+}
+
+.blogInfo p:nth-of-type(1){
+    margin-bottom: 15px !important;
+    margin-top: 7px !important;
+}
+
+.blogCon{
+    max-width:100% !important;
+    width:100% !important;
+}
+
+
+.blogImg{
+    height: 200px !important;
+    width: 100%;
+    background: $color4;
+
+    
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+.emailRegister{
+
+    h2{
+       font-size: 20px !important;
+    }
+
+
+    form{
+        width: 100% !important;
+    }
+
+    input{
+        padding: 12px 8px !important;
+    }
+    
+
+    button{
+        padding: 9.7px 13px !important;
+    }
+}
+
+
+
+
+.blogAdsCon{
+    flex-wrap: wrap;
+    padding: 6% 8%;
+}
+
+.blogAdsInfo{
+    font-size: 15px !important;
+    flex-grow: 1;
+    padding-top: 30px;
+    margin-bottom: 12px !important;
+
+    h2{
+        font-family: poppinsBold !important;
+    }
+    
+    a{
+        border:1px solid $color1;
+        padding:8px 12px !important;
+        font-family: poppinsRegular;
+        background: transparent;
+        color:$color3;
+        font-size: 16px;
+        // border-radius: 5px;
+    }
+}
+
+.blogAdsImg{
+    height: 230px !important;
+    margin-left: -20px;
+}
+
+.blogSliderCon{
+    padding: 0px 4% 40px 4% !important;
+    
+        .blogImg{
+            height: 170px !important;
+        }
+}
+.blogSliderHeading{
+    padding: 40px 7% 0 6% !important;
+
+    h2{
+        font-size: 18px;
+    }
+}
+footer{
+    padding: 50px 7% !important;
+}
+}

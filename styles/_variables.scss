@@ -1,0 +1,85 @@
+    *{
+        font-family: poppinsLight;
+    }
+    
+    $color0:#181818;
+    $color1:#ec9735;
+    $color2:#945f0f;
+    $color3:white;
+    $color4:#f7f7f7;
+    $color5:#f0eeee;
+    $color6:0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    $color7:#f5f6f6;
+    $color8:rgb(63, 63, 63);
+    $color9:gray;
+    $color10:#232323;
+    $color11:#0a0a0a;
+    $color12:#5A360E;
+    $color13:#c9c5c5;
+    $color14:#343434;
+    $color15:#aaaaaa;
+    $color16:linear-gradient(40deg,$color2,$color1);
+    $color17:0 1px 2px 0 rgba(0,0,0,.2);
+    $color20:rgb(252, 252, 252);
+
+
+    //Dark Theme
+    $color18:#1b1b1b;
+    $color19:#141414;
+
+    $gradient1:linear-gradient(30deg,orangered,orange);
+    $gradient2:linear-gradient(30deg,#0C7BB3,#F2BAE8);
+
+
+    
+
+
+
+    @font-face {
+    font-family: poppinsExtraBold;
+    src: url("../fonts/Poppins/Poppins-ExtraBold.ttf");
+    
+    }
+    @font-face {
+    font-family: poppinsBold;
+    src: url("../fonts/Poppins/Poppins-Bold.ttf");
+    
+    }
+    @font-face {
+    font-family: poppinsMedium;
+    src: url("../fonts/Poppins/Poppins-Medium.ttf");
+    
+    }
+    @font-face {
+    font-family: poppinsRegular;
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+    
+    }
+    @font-face {
+    font-family: poppinsLight;
+    src: url("../fonts/Poppins/Poppins-Light.ttf");
+    
+    }
+
+    @font-face {
+        font-family: metropolisBold;
+        src: url("../fonts/Metropolis/Metropolis-Bold.otf");
+        
+    }
+
+    @font-face {
+        font-family: metropolisRegular;
+        src: url("../fonts/Metropolis/Metropolis-Regular.otf");
+        
+    }
+    @font-face {
+        font-family: proximaNova;
+        src: url("../fonts/Proxima_Nova/Proxima1.otf");
+        
+    }
+    
+
+
+    
+
+

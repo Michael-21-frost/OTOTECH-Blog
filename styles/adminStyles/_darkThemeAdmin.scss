@@ -1,0 +1,112 @@
+
+@media (prefers-color-scheme: dark) {
+    .adminAllCon{
+        background: $color11 !important;
+    }
+
+    .subNav3{
+        background: $color18 !important;
+        
+          div{
+                a{
+                    color: $color4 !important;
+                }
+            }
+        }
+    
+    .adminstat1{
+        background: $color18 !important;
+    
+    }
+
+    .adminstat2{
+        background: $color18 !important;
+    }
+
+
+
+
+
+
+
+
+
+    //-----Admin DataDisplay
+
+.adminfilterscon{
+    background: $color18 !important;
+}
+    
+.adminstat3con{
+    background: $color18 !important;
+}
+
+.adminstat3info2{
+    td{
+        color: $color4 !important;
+
+        button{
+            color: $color4 !important;
+        }
+
+        a{
+            color: $color4 !important;
+        }
+    }
+}
+
+
+
+
+
+
+
+    //-----Admin DataInput
+
+    .addcategcon{
+        background: $color18 !important;
+    }
+
+    .admineditnamecon{
+    
+          p{
+            color:$color4 !important;      
+          }
+    }
+
+    
+    .adminLinks{
+    
+            p{
+            color:$color4 !important;
+            }
+    
+    }
+
+    
+.admineditnamecon2{
+
+        p{
+        color:$color4 !important;
+      }
+
+}
+
+
+
+
+
+
+
+
+
+    //-----Admin Support
+    .adminSupportLink{
+        div{
+            i{
+                background-color: $color11 !important;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,215 @@
+@import '../variables';
+
+
+.addcategcon{
+    padding: 10px 20px 20px 20px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    background: $color3;
+}
+
+
+.admineditnamecon{
+    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+
+
+      p{
+        font-size: 11px;
+        color:$color9;
+        margin-left: 3px;
+        font-family: poppinsLight;      
+      }
+
+    input{
+        border: 1px solid $color9;
+        padding: 11px 8px;
+        border-radius: 5px;
+        width: 100%;
+       box-sizing: border-box;
+      }
+      
+    select{
+        border: 1px solid $color9;
+        padding: 11px 8px;
+        border-radius: 5px;
+        width: 100%;
+        font-family: poppinsLight;      
+
+         p{
+            font-size: 11px;
+            font-family: poppinsLight;      
+         }
+
+         
+    input{
+        width: 100%;
+        font-family: poppinsLight;      
+      }
+
+      }
+
+      textarea{
+        border: 1px solid $color9;
+        padding: 11px 8px;
+        border-radius: 5px;
+        width: 100%;
+       box-sizing: border-box;
+       height: 120px;  
+       font-family: poppinsLight;      
+      }
+}
+
+
+
+.admineditnamecon2{
+    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+
+
+        p{
+        font-size: 12px;
+        color:$color9;
+        margin-left: 3px;
+      }
+
+}
+
+.admineditname{
+    width: 100%;
+}
+
+.admineditname p:nth-of-type(1){
+font-family: poppinsRegular;
+color: $color8;
+}
+
+
+.adminLinkscon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.adminLinks{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    padding: 13px 0;
+
+        p{
+        font-size: 10px !important;
+        color:$color14;
+        margin-left: 0px;
+        font-family: poppinsLight;
+        }
+
+}
+
+.adminLinksPrefix{
+    width: 20%;
+        p{
+            font-size: 10px !important;
+            color:$color14;
+            margin-left: 0px !important;
+            font-family: poppinsLight;
+        }
+    select{
+        border: 1px solid $color9;
+        padding: 11px 8px;
+        border-radius: 5px;
+        width: 90%;
+
+        
+
+    }
+
+
+}
+.adminLinksInput{
+    width: 80%;
+
+    input{
+        border: 1px solid $color9;
+        padding: 11px 8px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        width: 100%;
+      }
+}
+
+
+.dropdown-container{
+    border-color: $color9 !important;
+    color: $color14 !important;
+}
+
+
+.previewimg2{
+display: flex;
+box-sizing: border-box;
+overflow-x: auto;
+}
+.previewimg{
+    background: $color13;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    margin: 4px;
+    display: flex;
+    border: none;
+
+    img{
+        object-fit: contain;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
+
+.admineditbtn{
+    padding: 0 10px;
+    margin-top: 12px;
+    
+        button{
+            border: 0;
+            padding: 10px 15px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+            background: $color2;
+            color:$color3;
+            cursor: pointer;
+            width: 100%;
+            font-family: poppinsRegular;
+        }
+    }
+
+    
+
+.css-1s2u09g-control{
+border: 1px solid $color9 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:780px){
+    .adminLinks{
+
+            p{
+            margin-left: 5px;
+            }
+    
+    }
+}

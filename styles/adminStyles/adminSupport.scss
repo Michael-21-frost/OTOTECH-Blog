@@ -1,0 +1,49 @@
+@import '../variables';
+
+
+.adminSupportLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+
+    div{
+    margin: 0 9px;
+        i{
+            width:33px;
+            height:32px;
+            border-radius: 50%;
+            background-color: $color0;
+            color:$color3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+        }
+    }
+}
+
+
+
+
+
+@media (max-width:780px){
+    .adminSupportLink{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 0;
+        width: 100%;
+    
+        div{
+        margin: 0 7px;
+            i{
+                width:30px;
+                height:29px;
+                font-size: 13px;
+            }
+        }
+    }  
+}

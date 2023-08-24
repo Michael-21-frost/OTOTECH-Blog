@@ -1,0 +1,84 @@
+@media (max-width:680px) {
+    .articleContentCon{
+        padding: 10px 7% 0 7% !important;
+    }
+}
+
+@media (max-width:780px) {
+    .articleHeadCon{
+        padding-top: 115px !important;
+    }
+    
+    .articleHead{    
+        h1{
+            font-size: 28px !important;
+        }
+        p{
+            font-size: 11px !important;
+        }
+    }
+    .articleImg{
+        height: 61vw !important;
+    }
+    .articleCreditCon{
+        flex-wrap: wrap;
+        padding: 20px 5% !important;
+    }
+
+    .articleAuthorCon{
+        width: 100% !important;
+        padding-bottom: 20px;
+    }
+
+    .articleShareCon{
+        width: 100% !important;
+    }   
+    
+
+    .articleAuthor p:nth-of-type(1){
+        font-size: 9px !important;
+    }
+    
+    .articleAuthor p:nth-of-type(2){
+        font-size: 11px !important;
+    }
+    
+    .articleAuthor p:nth-of-type(3){
+        font-size: 10px !important;
+    }
+    
+    .articleShare{
+        border: 1px solid $color9;
+
+    button{
+        padding: 8px 14px !important;
+    }
+
+    a{
+        padding: 6px 20px !important;
+    }
+    }
+
+    .articleContentCon{
+
+        div{
+            img{
+                height:43vw !important;
+            }
+        }
+    }
+
+
+    .likeArticleCon{
+        padding-top: 60px !important;
+    }
+
+    .commentBoxCon{
+        padding: 30px 0 !important;
+    
+        form{
+            width: 80% !important;
+        }
+    }
+    
+}
